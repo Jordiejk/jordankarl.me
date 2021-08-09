@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
         
         <!--==================== SWIPER CSS ====================-->
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
         
         <!--==================== CSS ====================-->
         <link rel="stylesheet" href="assets/css/styles.css">
@@ -19,12 +19,12 @@
         <!--==================== HEADER ====================-->
         <header class="header" id="header">
             <nav class="nav container">
-                <a href="#" class="nav__logo">Jordan</a>
+                <a href="#" class="nav__logo">The Jordan Karl</a>
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
                         <li class="nav__item">
-                            <a href="#home" class="nav__link">
+                            <a href="#home" class="nav__link active-link">
                                 <i class="uil uil-estate nav__icon"></i> Home
                             </a>
                         </li>
@@ -36,11 +36,6 @@
                         <li class="nav__item">
                             <a href="#skills" class="nav__link">
                                 <i class="uil uil-folder nav__icon"></i> Skills
-                            </a>
-                        </li>
-                        <li class="nav__item">
-                            <a href="#services" class="nav__link">
-                                <i class="uil uil-moneybag nav__icon"></i> Services
                             </a>
                         </li>
                         <li class="nav__item">
@@ -58,6 +53,9 @@
                 </div>
 
                 <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class="uil uil-moonset change-theme" id="theme-button"></i>
+
                     <div class="nav__toggle" id="nav-toggle">
                         <i class="uil uil-apps"></i>
                     </div>
@@ -80,7 +78,7 @@
                                 <i class="uil uil-github"></i>
                             </a>
 
-                            <a href="https://medium.com/" target="_blank" class="home__social-icon">
+                            <a href="https://medium.com/@me_38418" target="_blank" class="home__social-icon">
                                 <i class="uil uil-medium-m"></i>
                             </a>
                         </div>
@@ -106,8 +104,8 @@
 
                         <div class="home__data">
                             <h1 class="home__title">Hi, I am Jordan Karl</h1>
-                            <h3 class="home__subtitle">Full Stack/ Blockchain Developer</h3>
-                            <p class="home__description">Fullstack software development, web development and blockchain technologies.</p>
+                            <h3 class="home__subtitle">Web/Blockchain Developer</h3>
+                            <p class="home__description">Web development and blockchain technologies enthusiast.</p>
                             <a href="#contact" class="button button--flex">
                                 Contact Me <i class="uil uil-fast-mail button__icon"></i>
                             </a>
@@ -128,34 +126,34 @@
             <!--==================== ABOUT ====================-->
             <section class="about section" id="about">
                 <h2 class="section__title">About Me</h2>
-                <span class="section__subtitle">My Introduction</span>
+                <span class="section__subtitle">Meet Jordan Karl</span>
 
                 <div class="about__container container grid">
                     <img src="assets/img/about.jpg" alt="" class="about__img">
 
                     <div class="about__data">
-                        <p class="about__description">Python, HTML/CSS, React, .Net, web3.js, solidity and smart contracts. Seeking freelance and remote positions.</p>
+                        <p class="about__description">Python, HTML/CSS, REACT, NODE, .Net, web3.js, solidity and smart contracts. Seeking web and blockchain development positions.</p>
 
                         <div class="about__info">
                             <div>
-                                <span class="about__info-title">05+</span>
+                                <span class="about__info-title">03+</span>
                                 <span class="about__info-name">Years <br> experience</span>
                             </div>
 
                             <div>
-                                <span class="about__info-title">10+</span>
-                                <span class="about__info-name">Completed <br> projects</span>
+                                <span class="about__info-title">12+</span>
+                                <span class="about__info-name">Web <br> projects</span>
                             </div>
 
                             <div>
                                 <span class="about__info-title">02+</span>
-                                <span class="about__info-name">Companies <br> worked</span>
+                                <span class="about__info-name">Blockchain <br> projects</span>
                             </div>
                         </div>
 
                         <div class="about__buttons">
-                            <a download="" href="assets/pdf/Alexa-Cv.pdf" class="button button--flex">
-                                Download CV<i class="uil uil-file-download-alt button__icon"></i>
+                            <a download="" href="assets/pdf/JordanKarl_RESUME.pdf" class="button button--flex">
+                                Download Resume<i class="uil uil-file-download-alt button__icon"></i>
                             </a>
                         </div>
                     </div>
@@ -164,58 +162,524 @@
 
             <!--==================== SKILLS ====================-->
             <section class="skills section" id="skills">
+                <h2 class="section__title">Skills</h2>
+                <span class="section__subtitle">My Technical Level</span>
 
+                <div class="skills__container container grid">
+                    <div>
+                        <!--==================== SKILLS 1 ====================-->
+                        <div class="skills__content skills__open">
+                            <div class="skills__header">
+                                <i class="uil uil-brackets-curly skills__icon"></i>
 
+                                <div>
+                                    <h1 class="skills__title">Web Development</h1>
+                                    <span class="skills__subtitle">More than 3 years</span>
+                                </div>
+
+                                <i class="uil uil-angle-double-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">HTML</h3>
+                                        
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__html"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">CSS</h3>
+                                        
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__css"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__js"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">REACT</h3>
+                                        
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__react"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== SKILLS 2 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-database-alt skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Software Development</h1>
+                                    <span class="skills__subtitle">More than 1 year</span>
+                                </div>
+
+                                <i class="uil uil-angle-double-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">.NET</h3>
+                                        
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__net"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Python</h3>
+                                        
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__python"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">MySQL</h3>
+                                        <span class="skills__number"></span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__sql"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">AWS</h3>
+                                        <span class="skills__number"></span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__aws"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--==================== SKILLS 3 ====================-->
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-bitcoin skills__icon"></i>
+
+                                <div>
+                                    <h1 class="skills__title">Blockchain Development</h1>
+                                    <span class="skills__subtitle">More than 1 year</span>
+                                </div>
+
+                                <i class="uil uil-angle-double-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Solidity</h3>
+                                        <span class="skills__number"></span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__solidity"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">web3.js</h3>
+                                        <span class="skills__number"></span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__webjs"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Smart Contracts</h3>
+                                        <span class="skills__number"></span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__contracts"></span>
+                                    </div>
+                                </div>
+
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Ethereum Dapp</h3>
+                                        <span class="skills__number"></span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__dapp"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <!--==================== QUALIFICATION ====================-->
             <section class="qualification section">
+                <h2 class="section__title">Qualifications</h2>
+                <span class="section__subtitle">My Personal Journey</span>
 
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex qualification__active" data-target='#education'>
+                            <i class="uil uil-graduation-cap qualification__icon"></i>
+                            Education
+                        </div>
 
-            </section>
+                        <div class="qualification__button button--flex" data-target="#work">
+                            <i class="uil uil-briefcase-alt qualification__icon"></i>
+                            Work
+                        </div>
+                    </div>
 
-            <!--==================== SERVICES ====================-->
-            <section class="services section" id="services">
-                
+                    <div class="qualification__sections">
+                        <!--==================== QUALIFICATION CONTENT 1 ====================-->
+                        <div class="qualification__content qualification__active" data-content id="education">
+                            <!--==================== QUALIFICATION 1 ====================-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Associates in Computer Information Systems</h3>
+                                    <span class="qualification__subtitle">DeVry University</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2017-2018
+                                    </div>
+                                </div>
 
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+                            <!--==================== QUALIFICATION 2 ====================-->
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <!-- <span class="qualification__line"></span> -->
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">Bachelor in Web Development</h3>
+                                    <span class="qualification__subtitle">DeVry University</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2018-2021
+                                    </div>
+                                </div>                                
+                            </div>
+                        </div>
+
+                        <!--==================== QUALIFICATION CONTENT 2 ====================-->
+                        <div class="qualification__content" data-content id="work">
+                            <!--==================== QUALIFICATION 1 ====================-->
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Web Development</h3>
+                                    <span class="qualification__subtitle">Freelance</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2018-2021
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+
+                            <!--==================== QUALIFICATION 2 ====================-->
+                            <div class="qualification__data">
+                                <div></div>
+
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <!-- <span class="qualification__line"></span> -->
+                                </div>
+
+                                <div>
+                                    <h3 class="qualification__title">Blockchain Development</h3>
+                                    <span class="qualification__subtitle">Freelance</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2020-2021
+                                    </div>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <!--==================== PORTFOLIO ====================-->
             <section class="portfolio section" id="portfolio">
-                
+                <h2 class="section__title">Portfolio</h2>
+                <span class="section__subtitle">Most Recent Work</span>
 
-            </section>
+                <div class="portfolio__container containter swiper-container">
+                    <div class="swiper-wrapper">
+                        <!--==================== PORTFOLIO 1 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolioJordan.jpg" alt="" class="portfolio__img">
+                        
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Web Design Example</h3>
+                                <p class="portfolio__description">This portfolio website is an example of HMTL, CSS, and Javascript. It includes animations, responsive design and interactions.</p>
+                                <a href="#home" class="button button--flex button--small portfolio__button">
+                                    DEMO
+                                <i class="uil uil-angle-double-right button__icon"></i>
+                                </a>                                
+                            </div>
+                        </div>
+                        
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio312.jpg" alt="" class="portfolio__img">
+                        
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Web Design Example</h3>
+                                <p class="portfolio__description">312 Web Solutions. Website design example for a web agency.</p>
+                                <a href="https://preview.webflow.com/preview/312-web-solutions?utm_medium=preview_link&utm_source=dashboard&utm_content=312-web-solutions&preview=146495f588ee7362d6b3715be87dbe31&workflow=preview" class="button button--flex button--small portfolio__button">
+                                    DEMO
+                                <i class="uil uil-angle-double-right button__icon"></i>
+                                </a>                                
+                            </div>
+                        </div>
 
-            <!--==================== PROJECT IN MIND ====================-->
-            <section class="project section">
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolioEFR.jpg" alt="" class="portfolio__img">
+                        
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Web Design Example</h3>
+                                <p class="portfolio__description">Extreme Fitness Results is a local personal training business in the Chicagoland area servicing, student athletes, senior citizens and professional athletes on their fitness journeys.</p>
+                                <a href="https://www.extreme-fitness-results.com/" class="button button--flex button--small portfolio__button">
+                                    DEMO
+                                <i class="uil uil-angle-double-right button__icon"></i>
+                                </a>                                
+                            </div>
+                        </div>
 
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolioKINE.jpg" alt="" class="portfolio__img">
+                        
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Web Design Example</h3>
+                                <p class="portfolio__description">KINEMEDiX is a local athletic training business in the Los Angeles area servicing, student athletes on their fitness journey.</p>
+                                <a href="https://www.kinemedix.com/" class="button button--flex button--small portfolio__button">
+                                    DEMO
+                                <i class="uil uil-angle-double-right button__icon"></i>
+                                </a>                                
+                            </div>
+                        </div>
 
-            </section>
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolioFAPRNA.jpg" alt="" class="portfolio__img">
+                        
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Web Design Example</h3>
+                                <p class="portfolio__description">Filipino-American Advanced Practice Registered Nurses Associatin (FAPRNA) is a local professional organization in the Las Vegas area for Registered Nurses, hosting events and informational sessions.</p>
+                                <a href="https://www.faprna.org/" class="button button--flex button--small portfolio__button">
+                                    DEMO
+                                <i class="uil uil-angle-double-right button__icon"></i>
+                                </a>                                
+                            </div>
+                        </div>
 
-            <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section">
-                
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolioLifeFlow.jpg" alt="" class="portfolio__img">
+                        
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Web Design Example</h3>
+                                <p class="portfolio__description">LifeFlowHealing is a telehealth business working with remote clients across the country. This website is an example of HMTL, CSS, and Javascript (REACT). It includes animations, responsive design and interactions. </p>
+                                <a href="https://www.lifeflowhealing.ninja/" class="button button--flex button--small portfolio__button">
+                                    DEMO
+                                <i class="uil uil-angle-double-right button__icon"></i>
+                                </a>                                
+                            </div>
+                        </div>
 
+                        <!--==================== PORTFOLIO 2 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio2.jpg" alt="" class="portfolio__img">
+                        
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Webscraper</h3>
+                                <p class="portfolio__description">Job sites webscraper, find relevent jobs in tech.</p>
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    DEMO: Coming Soon!
+                                <i class="uil uil-angle-double-right button__icon"></i>
+                                </a>                                
+                            </div>
+                        </div>
+
+                        <!--==================== PORTFOLIO 3 ====================-->
+                        <div class="portfolio__content grid swiper-slide">
+                            <img src="assets/img/portfolio3.jpg" alt="" class="portfolio__img">
+                        
+                            <div class="portfolio__data">
+                                <h3 class="portfolio__title">Blockchain Dapps</h3>
+                                <p class="portfolio__description">The future of tech, developed here.</p>
+                                <a href="#" class="button button--flex button--small portfolio__button">
+                                    DEMO: Coming Soon!
+                                <i class="uil uil-angle-double-right button__icon"></i>
+                                </a>                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Add Arrows and Pagination -->
+                    <div class="swiper-button-next">
+                        <i class="uil uil-angle-double-right swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class="uil uil-angle-double-left swiper-portfolio-icon"></i>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>                 
             </section>
 
             <!--==================== CONTACT ME ====================-->
             <section class="contact section" id="contact">
+                <h2 class="section__title">Contact Me</h2>
+                <span class="section__subtitle">Get in touch</span>
 
+                <div class="contact__container container grid">
+                    <div>
+                        <div class="contact__information">
+                            <i class="uil uil-megaphone contact__icon"></i>
 
+                            <div>
+                                <h3 class="contact__title">Call Me</h3>
+                                <span class="contact__subtitle">(702) 688-0804</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-postcard contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Email</h3>
+                                <span class="contact__subtitle">me@thejordankarl.dev</span>
+                            </div>
+                        </div>
+
+                        <div class="contact__information">
+                            <i class="uil uil-map-marker-question contact__icon"></i>
+
+                            <div>
+                                <h3 class="contact__title">Location</h3>
+                                <span class="contact__subtitle">Coding the future, 
+                                    <br>Las Vegas, NV</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="contact__form grid">
+                        <div class="contact__inputs grid">
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Name</label>
+                                <input type="text" class="contact__input">
+                            </div>
+
+                            <div class="contact__content">
+                                <label for="" class="contact__label">Email</label>
+                                <input type="email" class="contact__input">
+                            </div>
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Subject</label>
+                            <input type="text" class="contact__input">
+                        </div>
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Message</label>
+                            <textarea name="" id="" cols="0" rows="8" class="contact__input"></textarea>
+                        </div>
+
+                        <div>
+                            <a href="#" class="button button--flex">
+                                Send Message
+                                <i class="uil uil-fast-mail button__icon"></i>
+                            </a>
+                        </div>
+                    </form>
+                </div>
             </section>
         </main>
 
         <!--==================== FOOTER ====================-->
         <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">The Jordan Karl</h1>
+                        <span class="footer__subtitle">Web/Blockchain Developer</span>
+                    </div>
 
-            
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#skills" class="footer__link">Skills</a>     
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="footer__link">Portfolio</a>     
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer__link">Contact</a>     
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://www.linkedin.com/in/jordan-karl-software-engineer/" target="_blank" class="footer__social">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+
+                        <a href="https://github.com/thejordankarl" target="_blank" class="footer__social">
+                            <i class="uil uil-github"></i>
+                        </a>
+
+                        <a href="https://medium.com/@me_38418" target="_blank" class="footer__social">
+                            <i class="uil uil-medium-m"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <p class="footer__copy">&#169;The Jordan Karl. All Rights Reserved.</p>
+            </div>            
         </footer>
         
         <!--==================== SCROLL TOP ====================-->
-        
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-angle-double-up scrollup__icon"></i>
+        </a>
 
         <!--==================== SWIPER JS ====================-->
-        <script src=""></script>
+        <script src="assets/js/swiper-bundle.min.js"></script>
 
         <!--==================== MAIN JS ====================-->
         <script src="assets/js/main.js"></script>
