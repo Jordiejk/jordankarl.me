@@ -1,2 +1,2 @@
 # thejordankarl.dev
-Software Developer Portfolio Website
+Web Developer Portfolio Website
